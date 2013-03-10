@@ -1,0 +1,124 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#FFFBF2;
+	margin: 10px;
+	font-family: Avenir, tahoma, Bank Gothic Light, "Lucida Grande", "Bitstream Vera Sans", lucida, arial, helvetica, sans-serif;
+	font-size: large;
+	color:#64646E; 
+}
+
+h1, h2, h4, h5, h6	{
+	font-family: 	Avenir, "Gill Sans", Myriad, "Century Gothic", "Bitstream Vera Sans", arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 2px;
+	letter-spacing: 1px;
+	color:#454545; 
+	}
+
+h3 {
+	font-family: Avenir, tahoma, Bank Gothic Light, "Lucida Grande", "Bitstream Vera Sans", lucida, arial, helvetica, sans-serif;
+	font-size: small; 
+	color:#454545; 
+}
+
+hr{ 
+	height: 1px; 
+	color: #000066; 
+	border-style: dashed; 
+	clear: both; 
+}
+th{ 
+	font-family: Avenir, tahoma, Bank Gothic Light, "Lucida Grande", "Bitstream Vera Sans", lucida, arial, helvetica, sans-serif;
+	font-size: 13px; 
+	font-weight:bold; 
+	text-align: right; 
+	vertical-align: top 
+}
+
+/*  header */
+#header {
+	margin:0;
+	padding:50px;
+	text-align:center;
+	color:#fff;
+	background-color:#666;
+	}
+/*  footer */
+#footer {
+	margin:0;
+	padding:20px;
+	text-align:center;
+	color:#666;
+	background-color:#ececec;
+	}
+/*  menu */
+#menu ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	} 
+
+#menu ul li {
+	margin-left: 0;
+	padding: 3px 15px;
+	border-left: 1px solid #000;
+	list-style: none;
+	display: inline;
+	}
+	
+	
+#menu ul li.first {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+	}
+
+#menu ul li a:link, a:visited {
+	text-decoration : none;
+	color:#454545;
+	background: transparent;
+	}
+
+#menu ul li a:hover {
+	text-decoration:none;
+	border-bottom: dotted 1px #000; 
+	color:#000;
+
+}
+
+
+	
+	/* General links */
+a:link, a:visited {
+	text-decoration : none;
+	color:#454545;
+	background: transparent; 
+	}
+
+a:hover {
+	text-decoration:none;
+	border-bottom: dotted 1px #FFFFFFF; 
+	color: black;
+	background: transparent; 
+	}
+
+a:active {
+	text-decoration : none;
+	color: #454545;
+	background: transparent;  
+	}
+
+
+
+
+.tagged { 
+	margin: 0 0 50px 0; 
+	padding: 5px 0 0 0; 
+	font-size: 1.2em; 
+	line-height: 1.7em; 
+	color: #888;
+	clear: both; 
+	}
